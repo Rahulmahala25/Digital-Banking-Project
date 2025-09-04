@@ -1,9 +1,9 @@
-🏦 Digital Banking Analytics Project  
+##🏦 Digital Banking Analytics Project  
 **Digital Banking Analytics Project** is a streamlined data pipeline solution built with **Python, MySQL, and Power BI**. It specializes in transforming raw banking data into insights, offering a smooth ETL workflow and an engaging dashboard for analysis.
 
 ---
 
-🚀 Features  
+#🚀 Features  
 🔹 Extracts customer and transaction data from CSV files  
 🔹 Transforms and loads data seamlessly into both the LIVE and warehouse databases  
 🔹 Automates full-truncate transfers for data consistency between databases  
@@ -12,7 +12,7 @@
 
 ---
 
-🛠️ Tech Stack  
+#🛠️ Tech Stack  
 - **Data Processing**: Python (Pandas, SQLAlchemy, PyMySQL)  
 - **Database**: MySQL (Live database & `wh_online_banking` warehouse)  
 - **Visualization**: Power BI (.pbix file)
