@@ -63,5 +63,5 @@ This project involves:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/BelayetDS/online_banking_Project.git
-cd online_banking_Project
+git clone https://github.com/Rahulmahala25/Digital-Banking-Project.git
+cd Digital-Banking-Project
