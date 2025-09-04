@@ -14,6 +14,7 @@ This project demonstrates a complete data pipeline for online banking analytics,
 - [Project Structure](#project-structure)
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
+- [Project Resources](#project-resources)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -33,35 +34,68 @@ This project involves:
 
 ## Data Sources
 
-- `customer_joining_info.csv` — customer registration data.
-- `customer_transactions.csv` — customer transaction data.
-- `wh_online_banking.sql` — SQL script to set up the data warehouse schema.
-- `Online Banking Project.pbix` — Power BI dashboard file.
+- `customer_joining_info.csv` — customer registration data.  
+- `customer_transactions.csv` — customer transaction data.  
+- `wh_online_banking.sql` — SQL script to set up the data warehouse schema.  
+- `Online Banking Project.pbix` — Power BI dashboard file.  
 
 ---
 
 ## Technologies Used
 
-- **Python** (Pandas, SQLAlchemy, PyMySQL)
-- **MySQL / SQL** (Data warehouse and queries)
-- **Power BI** (Data visualization)
+- **Python** (Pandas, SQLAlchemy, PyMySQL)  
+- **MySQL / SQL** (Data warehouse and queries)  
+- **Power BI** (Data visualization)  
 
 ---
 
 ## Project Structure
 
+online_banking_Project/
+├── Online Banking Project.ipynb # Jupyter Notebook for ETL
+├── README.md # Project documentation
+├── customer_joining_info.csv # Customer registration data
+├── customer_transactions.csv # Customer transaction data
+├── online Banking Project.pbix # Power BI dashboard
+└── wh_online_banking.sql # SQL script for database setup
 
-- **Online Banking Project.ipynb** → Python notebook handling ETL (Extract, Transform, Load).
-- **CSV files** → Raw datasets for customers and transactions.
-- **wh_online_banking.sql** → Schema and table creation script for MySQL database.
-- **Power BI file** → Ready-made dashboard for visualization.
+yaml
+Copy code
 
 ---
 
 ## Setup & Installation
 
-1. **Clone the repository**
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/Rahulmahala25/Digital-Banking-Project.git
-cd Digital-Banking-Project
+git clone https://github.com/BelayetDS/online_banking_Project.git
+cd online_banking_Project
+Install required Python packages:
+
+bash
+Copy code
+pip install pandas sqlalchemy pymysql
+Set up MySQL database:
+
+Run wh_online_banking.sql in MySQL Workbench to create necessary tables.
+
+Update database credentials in the Python notebook/script.
+
+Usage
+Run the ETL process in Online Banking Project.ipynb:
+
+Imports CSV data into the live database.
+
+Transfers tables to the warehouse (wh_online_banking).
+
+Open the Power BI dashboard (online Banking Project.pbix) to explore visual insights.
+
+Project Resources
+GitHub Repository
+
+ETL Notebook
+
+Database Schema Script
+
+Power BI Dashboard
