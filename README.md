@@ -52,12 +52,13 @@ This project involves:
 ## Project Structure
 
 online_banking_Project/
-├── Online Banking Project.ipynb # Jupyter Notebook for ETL
-├── README.md # Project documentation
-├── customer_joining_info.csv # Customer registration data
-├── customer_transactions.csv # Customer transaction data
-├── online Banking Project.pbix # Power BI dashboard
-└── wh_online_banking.sql # SQL script for database setup
+├── Online Banking Project.ipynb        # Jupyter Notebook for ETL (Extract, Transform, Load)
+├── README.md                           # Project documentation
+├── customer_joining_info.csv           # Raw customer registration data
+├── customer_transactions.csv           # Raw customer transaction data
+├── online Banking Project.pbix         # Power BI dashboard for insights & visualization
+└── wh_online_banking.sql               # SQL script to set up the Data Warehouse schema
+
 
 yaml
 Copy code
