@@ -50,3 +50,18 @@ This project involves:
 
 ## Project Structure
 
+
+- **Online Banking Project.ipynb** → Python notebook handling ETL (Extract, Transform, Load).
+- **CSV files** → Raw datasets for customers and transactions.
+- **wh_online_banking.sql** → Schema and table creation script for MySQL database.
+- **Power BI file** → Ready-made dashboard for visualization.
+
+---
+
+## Setup & Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/BelayetDS/online_banking_Project.git
+cd online_banking_Project
